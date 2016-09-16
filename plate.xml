@@ -14,6 +14,7 @@
   </head>
         <clippings>
             <text name="site_name" name_friendly="Site Name" required="1">Author Name</text>
+            <text name="first_name" name_friendly="Author First Name" required="1">Author</text>
             <images name="logo" name_friendly="Site Logo" limit="1">http://www.hachettebookgroup.com/_b2c/static/site_theme/img/hbg-logo.png</images>
             <text name="footer_text" name_friendly="Footer Text">Hachette Book Group, Inc.</text>
         </clippings>
