@@ -18,22 +18,6 @@
             <text name="footer_text" name_friendly="Footer Text">Hachette Book Group, Inc.</text>
         </clippings>
         <ingredients>
-            <templateset name="homepage" name_friendly="Homepage" view="homepage">
-                <fields>
-                    <images name="main_author_image" name_friendly="Main Author Image" />
-                    <one_to_one name="featured_book" relationship="books_pages" relationship_field="book_title" name_friendly="Featured Book" />
-                    <wysiwyg_advanced name="content" name_friendly="Intro Content" />
-                    <text name="youtube_id" name_friendly="YouTube ID" />
-                </fields>
-                <items>
-                    <item link_title="Homepage" path_part="zesty_home">
-                        <main_author_image>https://www.colourbox.com/preview/3074966-graphic-illustration-of-man-in-business-suit-as-user-icon-avatar.jpg</main_author_image>
-                        <featured_book>506</featured_book>
-                        <content>&lt;h2&gt;It is generally rated at 30,000 to 50,000 Scoville units&lt;/h2&gt; &lt;p&gt;It is named for the city of Cayenne in French Guiana&lt;/p&gt; &lt;ul&gt; &lt;li&gt;While It&lt;/li&gt; &lt;li&gt;But Is&lt;/li&gt; &lt;li&gt;But When&lt;/li&gt; &lt;li&gt;Still Eaten&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;The cayenne pepper&#x2014;also known as the Guinea spice,[1] cow-horn pepper, aleva, bird pepper,[2] or, especially in its powdered form, red pepper&#x2014;is a hot chili pepper used to flavour dishes&lt;/p&gt; &lt;blockquote&gt;It is also used as an herbal supplement, and was mentioned by Nicholas Culpeper in his Complete Herbal, 1653, as 'guinea pepper'[3] a misnomer for 'guiana pepper'&lt;/blockquote&gt; &lt;p&gt;It is a cultivar of Capsicum annuum related to bell peppers, jalape&#xF1;os, paprika and othersIt is a cultivar of Capsicum annuum related to bell peppers, jalape&#xF1;os, paprika and others&lt;/p&gt;</content>
-                        <youtube_id></youtube_id>
-                    </item>
-                </items>
-            </templateset>
             <templateset name="books" name_friendly="Books" view="books">
                 <fields>
                     <text name="page_title" name_friendly="Page Title" />
@@ -104,5 +88,21 @@
                     </item>
                 </items>
             </pageset>
+            <templateset name="homepage" name_friendly="Homepage" view="homepage">
+                <fields>
+                    <images name="main_author_image" name_friendly="Main Author Image" />
+                    <one_to_one name="featured_book" relationship="books_pages" relationship_field="book_title" name_friendly="Featured Book" />
+                    <wysiwyg_advanced name="content" name_friendly="Intro Content" />
+                    <text name="youtube_id" name_friendly="YouTube ID" />
+                </fields>
+                <items>
+                    <item link_title="Homepage" path_part="zesty_home">
+                        <main_author_image>https://www.colourbox.com/preview/3074966-graphic-illustration-of-man-in-business-suit-as-user-icon-avatar.jpg</main_author_image>
+                        <featured_book>506</featured_book>
+                        <content>&lt;h2&gt;It is generally rated at 30,000 to 50,000 Scoville units&lt;/h2&gt; &lt;p&gt;It is named for the city of Cayenne in French Guiana&lt;/p&gt; &lt;ul&gt; &lt;li&gt;While It&lt;/li&gt; &lt;li&gt;But Is&lt;/li&gt; &lt;li&gt;But When&lt;/li&gt; &lt;li&gt;Still Eaten&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;The cayenne pepper&#x2014;also known as the Guinea spice,[1] cow-horn pepper, aleva, bird pepper,[2] or, especially in its powdered form, red pepper&#x2014;is a hot chili pepper used to flavour dishes&lt;/p&gt; &lt;blockquote&gt;It is also used as an herbal supplement, and was mentioned by Nicholas Culpeper in his Complete Herbal, 1653, as 'guinea pepper'[3] a misnomer for 'guiana pepper'&lt;/blockquote&gt; &lt;p&gt;It is a cultivar of Capsicum annuum related to bell peppers, jalape&#xF1;os, paprika and othersIt is a cultivar of Capsicum annuum related to bell peppers, jalape&#xF1;os, paprika and others&lt;/p&gt;</content>
+                        <youtube_id></youtube_id>
+                    </item>
+                </items>
+            </templateset>
         </ingredients>
     </plate>
