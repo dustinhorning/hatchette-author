@@ -5,12 +5,16 @@
     <doctype>html5</doctype>
     <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script src="//code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>   
+    <script src="//cdnjs.cloudflare.com/ajax/libs/1000hz-bootstrap-validator/0.11.5/validator.js"></script>
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
     
   </head>
         <clippings>
             <text name="site_name" name_friendly="Site Name" required="1">Author Name</text>
-            <images name="logo" name_friendly="Site Logo" limit="1">2</images>
+            <images name="logo" name_friendly="Site Logo" limit="1">http://www.hachettebookgroup.com/_b2c/static/site_theme/img/hbg-logo.png</images>
             <text name="footer_text" name_friendly="Footer Text">Hachette Book Group, Inc.</text>
         </clippings>
         <ingredients>
