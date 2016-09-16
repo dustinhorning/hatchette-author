@@ -21,7 +21,7 @@
             <templateset name="homepage" name_friendly="Homepage" view="homepage">
                 <fields>
                     <images name="main_author_image" name_friendly="Main Author Image" />
-                    <one_to_one name="featured_book" name_friendly="Featured Book" />
+                    <one_to_one name="featured_book" relationship="books_pages" relationship_field="book_title" name_friendly="Featured Book" />
                     <wysiwyg_advanced name="content" name_friendly="Intro Content" />
                     <text name="youtube_id" name_friendly="YouTube ID" />
                 </fields>
@@ -62,7 +62,7 @@
                     <images name="book_image" name_friendly="Book Image" list="1" />
                     <textarea name="short_description" name_friendly="Short Description" />
                     <text name="availability" name_friendly="Availability " />
-                    <one_to_one name="category" name_friendly="Category" list="1" />
+                    <one_to_one name="category" relationship="book_categories" relationship_field="name" name_friendly="Category" list="1" />
                     <wysiwyg_advanced name="long_description" name_friendly="Long Description" />
                     <textarea name="soundcloud_embed" name_friendly="Soundcloud Embed" />
                     <text name="youtube_id" name_friendly="YouTube ID" />
