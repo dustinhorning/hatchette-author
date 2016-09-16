@@ -45,7 +45,6 @@
                 <fields>
                     <text name="book_title" name_friendly="Book Title" list="1" />
                     <images name="book_image" name_friendly="Book Image" list="1" />
-                    <yes_no name="featured_on_homepage" name_friendly="Featured on Homepage" />
                     <textarea name="short_description" name_friendly="Short Description" />
                     <text name="availability" name_friendly="Availability " />
                     <one_to_one name="category" relationship="book_categories" relationship_field="name" name_friendly="Category" list="1" />
@@ -69,7 +68,6 @@
                     <item link_title="Example Book" path_part="book">
                         <book_title>Example Book</book_title>
                         <book_image>https://bobio27.files.wordpress.com/2013/04/book_cover.jpg</book_image>
-                        <featured_on_homepage>1</featured_on_homepage>
                         <short_description>The cayenne pepper&#x2014;also known as the Guinea spice,[1] cow-horn pepper, aleva, bird pepper,[2] or, especially in its powdered form, red pepper&#x2014;is a hot chili pepper used to flavour dishesIt is red colored when ripened to maturity, but also eaten while still green It is a cultivar of Capsicum annuum related to bell peppers, jalape&#xF1;os, paprika and othersThe Capsicum genus is in the nightshade family (Solanaceae)</short_description>
                         <availability>Pepper&#x2014;is Pepper&#x2014;also Chili</availability>
                         <category>505</category>
