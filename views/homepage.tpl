@@ -60,7 +60,7 @@ http://ares.iobyte.com/Ares/RedirectService.svc/?id=4B343503">Kindle</a></li>
 		
 		<div class="container"  style="padding-top:40px">
 			<div class="fancy-title title-center margin title-dotted-border" >
-				<h3>{{ clipppings.first_name }}'s books</h3>
+				<h3>{{ clippings.first_name }}'s books</h3>
 			</div>
 			
 			<div id="oc-images" class="owl-carousel image-carousel carousel-widget" data-margin="20" data-nav="true" data-pagi="false" data-items-xxs="2" data-items-xs="3" data-items-sm="4" data-items-md="5">

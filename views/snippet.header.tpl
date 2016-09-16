@@ -6,7 +6,7 @@
 		
 		<div class="col_half nobottommargin" style="color:#FFF; letter-spacing:.2em;"><em><strong>NEW YORK TIMES</strong></em><strong> BESTSELLING AUTHOR</strong></div>	
 		<div class="col_half col_last fright nobottommargin">	
-			<a href="#" class="button button-small button-border button-rounded"><i class="fa fa-newspaper-o"></i>Sign up for {{ clipppings.first_name }}'s Newsletter</a>
+			<a href="#" class="button button-small button-border button-rounded"><i class="fa fa-newspaper-o"></i>Sign up for {{ clippings.first_name }}'s Newsletter</a>
 		</div>
 		
 	</div>
@@ -37,7 +37,7 @@
 				<ul>
 					
 					
-					<li><a href="bio.html"><div>About {{ clipppings.first_name }}</div><span>Awesome Works</span></a>
+					<li><a href="bio.html"><div>About {{ clippings.first_name }}</div><span>Awesome Works</span></a>
 						<ul>
 							<li><a href="bio.html"><div>Biography</div></a></li>
 							<li><a href="http://www.mamastrong.net" target="_blank"><div>Mamastrong</div></a></li>
