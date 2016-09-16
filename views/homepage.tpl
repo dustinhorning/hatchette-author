@@ -52,7 +52,9 @@ http://ares.iobyte.com/Ares/RedirectService.svc/?id=4B343503">Kindle</a></li>
 				{{ page.content }}
 				<br>
 				<br>
+				{{ if {page.youtube_id} }}
 				<iframe width="853" height="480" src="https://www.youtube.com/embed/{{ page.youtube_id }}" frameborder="0" allowfullscreen></iframe>
+				{{ end-if }}
 			</div>
 		</div>
 		
