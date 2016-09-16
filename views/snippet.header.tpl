@@ -6,7 +6,7 @@
 		
 		<div class="col_half nobottommargin" style="color:#FFF; letter-spacing:.2em;"><em><strong>NEW YORK TIMES</strong></em><strong> BESTSELLING AUTHOR</strong></div>	
 		<div class="col_half col_last fright nobottommargin">	
-			<a href="nletter.html" class="button button-small button-border button-rounded"><i class="fa fa-newspaper-o"></i>Sign up for Elin's Newsletter</a>
+			<a href="#" class="button button-small button-border button-rounded"><i class="fa fa-newspaper-o"></i>Sign up for Elin's Newsletter</a>
 		</div>
 		
 	</div>
@@ -41,7 +41,7 @@
 						<ul>
 							<li><a href="bio.html"><div>Biography</div></a></li>
 							<li><a href="http://www.mamastrong.net" target="_blank"><div>Mamastrong</div></a></li>
-							<li><a href="hilderbrander.html" target="_blank"><div>Become a Hilderbrander</div></a></li>
+							<li><a href="#" target="_blank"><div>Become a Hilderbrander</div></a></li>
 							
 						</ul>
 					</li>
@@ -50,14 +50,14 @@
 						
 					</li>
 					
-					<li><a href="tour.html"><div>Tour Dates</div></a>
+					<li><a href="#"><div>Tour Dates</div></a>
 						
 					</li>
 					
 					<li><a href="#"><div>Contact</div><span>Get In Touch</span></a>
 						<ul>
-							<li><a href="nletter.html"><div>Newsletter</div></a></li>
-							<li><a href="contact.html"><div>Publicity Info</div></a>
+							<li><a href="#"><div>Newsletter</div></a></li>
+							<li><a href="#"><div>Publicity Info</div></a>
 								
 							</li>
 							
