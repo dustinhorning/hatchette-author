@@ -8,7 +8,7 @@
 		<div class="container" >
 			
 			
-			{{ each books_pages as bp where bp.zid = {page.featured_book} }}
+			{{ each books_pages as bp where bp.featured_on_homepage = 1 sort by bp.sort_order limit 1 }}
 			<div class="col_half nobottommargin" align="center" ><a href="herestous.html"><img src="{{ bp.book_image.getImage(350,542,crop) }}" alt="{{ bp.book_title }}" ></a>
 				<h3><strong> {{ bp.availability }}</strong></h3>
 				<p >{{ bp.short_description }}
